@@ -1,0 +1,12 @@
+{
+    "name": "megantic/moduleone",
+    "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {"HelloWorld\\": "src/HelloWorld"}
+    }
+}
